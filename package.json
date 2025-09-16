@@ -1,0 +1,15 @@
+{
+  "name": "Ts_lab1",
+  "version": "1.0.0",
+  "main": "dist/CarMain.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/CarMain.js",
+    "dev": "ts-node src/CarMain.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
