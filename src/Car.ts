@@ -44,4 +44,13 @@ export class Car {
       console.log(`Impossible d'accélérer, la voiture est arrêtée.`);
     }
   }
+  decelerate(amount: number): void {
+    if (this.started) {
+      this.speed -= amount;
+      if (this.speed < 0) this.speed = 0;
+      console.log(`${this.brand} ${this.model} décélère à ${this.speed} km/h`);
+    } else {
+      console.log(`Impossible d'accélérer, la voiture est arrêtée.`);
+    }
+  }
 }

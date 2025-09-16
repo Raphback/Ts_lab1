@@ -13,7 +13,7 @@ audi.stop();
 console.log("\n=== BMW ===");
 bmw.start();
 bmw.accelerate(60);
-bmw.accelerate(20);
+bmw.decelerate(20);
 bmw.stop();
 
 console.log("\n=== Toyota ===");
@@ -24,4 +24,5 @@ toyota.stop();
 console.log("\n=== Tesla ===");
 tesla.start();
 tesla.accelerate(100);
+tesla.decelerate(20);
 tesla.stop();
